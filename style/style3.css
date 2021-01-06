@@ -1,0 +1,43 @@
+.livre > div{
+
+border-radius: 5px;
+  
+  border: 2px solid rgb(79,185,227);
+  color: yellow
+ 
+
+  margin: 3em 0em 3em;
+  background-color: #012C57;
+
+}
+.livre{
+	display: grid;
+	
+	 grid-template-columns:35% 35% 30%;
+	 color: pink;
+
+}
+
+#foto1 {
+	width:100%;
+	height: 100%
+
+}
+
+.leftul{
+		
+    list-style: none;
+    color: pink;
+}
+
+
+.leftul li{
+    padding-top: 30px;
+}
+
+.retour {
+	 width: 70%;
+    height: 170px;
+     
+}
+

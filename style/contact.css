@@ -1,0 +1,23 @@
+
+.livre > div{   /*ajout sur toutes les box dans livre*/
+  border-radius: 5px;
+  background-color: #012C57;
+  border: 2px solid rgb(79,185,227);
+  color:yellow;
+  margin: 3em 3em 3em;
+}
+  
+/*Les box a l'intérieur du fond rose */
+.livre {
+  display: grid;
+    grid-template-columns: 100%;
+}
+.livre h1{
+  color:yellow;
+}
+.livre ul{
+	list-style: none;
+
+}
+
+
