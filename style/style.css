@@ -116,7 +116,7 @@ background-color:white;
 }
 .livre{   /*zone ou il y as tout les livres*/
 	width: auto;
-
+	float:right;
 	background-color:pink;
 	border: 5px solid #800f55;
     text-align:center;

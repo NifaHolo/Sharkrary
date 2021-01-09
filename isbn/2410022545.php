@@ -14,7 +14,7 @@
     <h1><u>Bonjour toi, la description est ici ---></u></h1>
 </div>
 <div>
-<img src="../images/livre2" id="foto1">
+<img src="../images/2410022545" id="foto1">
 </div>
 
 <div>

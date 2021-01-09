@@ -13,6 +13,9 @@
      <img src="../images/poisson_trop_choupi.gif" id="foto1">
     <h1><u>Bonjour toi, la description est ici ---></u></h1>
 </div>
+<div>
+<img src="../images/2344015272" id="foto1">
+</div>
 
 <div>
 <ul class="leftul" align=center>
