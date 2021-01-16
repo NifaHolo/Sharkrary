@@ -1,4 +1,4 @@
-		<?php require "config.php"; ?>
+		<?php require "Config.php"; ?>
 	<link rel="stylesheet" href="<?php echo $CONFIG['root_path'] ?>style/style.css">
 	<title>Sharkrary</title>
 	<meta charset="UTF-8">

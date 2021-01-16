@@ -1,6 +1,9 @@
 <?php
 $CONFIG=array("root_path"=>"/Sharkrary/");
-$user = 'root';
-$password = '';
+$dbuser = 'root';
+$dbpwd = '';
+$dbhost = 'localhost';
+$dbname ='sharkrary';
+$dbport = NULL ;
 
 ?>

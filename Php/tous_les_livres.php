@@ -9,7 +9,7 @@
    <a href="#"><img src="../images/up.jpg" alt=""  class="bas"></a>
    <div class="livre">
    <?php
-    $link = mysqli_connect("localhost", $user , $password , "sharkrary");
+    $link = mysqli_connect($dbhost, $dbuser , $dbpwd , $dbname);
     
     if(!$link){
           //  echo "Erreur : Impossible de se connecter à MySQL." . PHP_EOL;
@@ -28,7 +28,7 @@ if ($result)
     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
     {
        echo "<div>";
-         echo "<a href='livres.php?isbn=" . $row["isbn"] . "' class='a_image'><img src='../images/" . $row["isbn"] . ".png'alt='' class='image'></a>";
+         echo "<a href='details.php?isbn=" . $row["isbn"] . "' class='a_image'><img src='../images/" . $row["isbn"] . ".png'alt='' class='image'></a>";
          echo "<h1>" . $row["titre"] . "</h1>";
            echo "<ul>";
              echo "<li><strong>Auteur </strong>: " . $row["prenom"] . " " . $row["nom"] . "</li>"; //affiche les auteurs dans l'odre de la bdd
